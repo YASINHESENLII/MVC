@@ -641,6 +641,22 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\dark.png"
     },
     {
+      "Id": "C:\\Users\\Asus\\Documents\\C#AB103\\WebApplication4\\WebApplication4\\wwwroot\\assets\\images\\website-images\\download.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Documents\\C#AB103\\WebApplication4\\WebApplication4\\wwwroot\\assets\\images\\website-images\\has.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\has.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Documents\\C#AB103\\WebApplication4\\WebApplication4\\wwwroot\\assets\\images\\website-images\\marnueli.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\marnueli.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\Documents\\C#AB103\\WebApplication4\\WebApplication4\\wwwroot\\assets\\images\\website-images\\qabil.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\qabil.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asus\\Documents\\C#AB103\\WebApplication4\\WebApplication4\\wwwroot\\assets\\images\\website-images\\quotation.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\quotation.png"
     },

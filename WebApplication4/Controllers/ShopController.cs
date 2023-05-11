@@ -2,15 +2,15 @@
 
 namespace WebApplication4.Controllers
 {
-    public class ShopContreller : Controller
+    public class ShopController : Controller
     {
         public IActionResult Index()
         {
-            return View("Shop");
+            return View();
         }
         public IActionResult Details()
         {
-            return View("singleproduct");
+            return View();
         }
 
     }
