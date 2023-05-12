@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using WebApplication4.DAL;
+
 namespace WebApplication4
 {
     public class Program
@@ -6,6 +9,8 @@ namespace WebApplication4
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<AppDbContext>(opt =>
+             opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
             var app = builder.Build();
 
 
@@ -13,7 +18,7 @@ namespace WebApplication4
             app.MapControllerRoute(
                 name:"Default",
 
-                pattern:"{controller}/{action}"
+                pattern:"{controller}/{action}/{id?}"
                 
                 );
 
